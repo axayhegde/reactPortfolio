@@ -16,10 +16,8 @@ const rotate360 = keyframes`
 
 const AboutMeT = styled.div`
         height : 100%;
-        background : #ef9a9a;
         animation: ${rotate360} 0.5s linear;
 `;
-
 
 
 class AboutMe extends Component {

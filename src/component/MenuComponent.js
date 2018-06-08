@@ -1,24 +1,31 @@
 import React, {Component} from 'react';
 import styled from "styled-components";
 import {BrowserRouter as Router, Route, Link} from "react-router-dom";
-import Home from './HomeComponent';
-import About from './AboutMeComponent';
-import Portfolio from './PortfolioComponent'
+import Button from '@material-ui/core/Button';
 
 
 const MenuT = styled.div`
-        text-align : center;
+        display : grid;
         background : #AF3D4E;
-        
+        grid-template-columns : 1fr;
+        grid-template-rows : 1fr 1fr 1fr;
+
+`;
+
+const StyledLink = styled(Link)`
+        color : white;
+        text-decoration: none;
+        justify-self: center;
+        align-self : center;
 `;
 
 class Menu extends Component {
     render() {
         return (
                 <MenuT>
-                    <Link to="/">Home</Link><br/>
-                    <Link to="/about">About Me</Link><br/>
-                    <Link to="/portfolio">Portfolio</Link>
+                    <StyledLink to="/">Home</StyledLink>
+                    <StyledLink to="/about">About Me</StyledLink>
+                    <StyledLink to="/portfolio">Portfolio</StyledLink>
                 </MenuT>
         );
     }

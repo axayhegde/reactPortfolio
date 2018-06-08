@@ -3,7 +3,7 @@ import styled from "styled-components";
 import {keyframes} from "styled-components";
 import * as firebase from 'firebase';
 import './HomeComponent.css';
-
+import Icon from '@material-ui/core/Icon';
 const rotate360 = keyframes`
   from {
     scale:0;
@@ -52,7 +52,7 @@ class Home extends Component {
                     <div className="tagline">Full Stack Developer | Photographer</div>
                     <div className="icons-social">
                         <a target="www.github.com/axayhegde" href="https://github.com/axayhegde"><i className="fab fa-github"></i></a>
-                        <a target="https://www.linkedin.com/in/akshayheg/" href="https://www.linkedin.com/in/akshayheg/"><i className="fab fa-linkedin"></i></a>
+                        <a target="https://www.linkedin.com/in/akshayheg/" href="https://www.linkedin.com/in/akshayheg/"><Icon>star</Icon></a>
                     </div>
 
                 </main>

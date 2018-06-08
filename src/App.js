@@ -4,7 +4,7 @@ import Menu from './component/MenuComponent';
 import Footer from './component/FooterComponent';
 import WrapperComponent from './global/wrapperComponent';
 import Home from './component/HomeComponent';
-import About from './component/AboutMeComponent';
+import About from './component/ContactMeComponent';
 import styled from "styled-components";
 import Portfolio from "./component/PortfolioComponent";
 import {BrowserRouter as Router, Route, Link} from "react-router-dom";
@@ -14,7 +14,6 @@ const Layout = styled.div`
     display : grid;
     height:100vh;
     grid-template-columns : 2fr 8fr;
-    grid-template-rows: 9fr 1fr;
 `;
 
 /*const FooterLayout = styled.div`
@@ -39,11 +38,10 @@ class App extends Component {
                     <Menu/>
                     <switch>
                         <Route exact path="/" component={Home}/>
-                        <Route path="/about" component={About}/>
                         <Route path="/portfolio" component={Portfolio}/>
-                        {/*<Route render={() => <div>404</div>}/>*/}
+                        <Route path="/about" component={About}/>
+
                     </switch>
-                    <Footer/>
                 </Layout>
             </Router>
         );
