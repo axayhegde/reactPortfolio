@@ -1,21 +1,17 @@
 import React, { Component } from 'react';
 import styled from "styled-components";
 
-
-const footer = styled.div`
-    display: grid;
-    grid-area: f;
-    background: green;
-    height: 100%;
-    
+const FooterT = styled.div`
+        grid-column : 1 / -1;
+        background : #AF3D4E;
 `;
 
 class Footer extends Component {
     render() {
         return (
-            <footer>
-                This is footer Component
-            </footer>
+            <FooterT>
+                Ⓒ Akshay Hegde
+            </FooterT>
         );
     }
 }
