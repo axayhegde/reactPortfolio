@@ -9,6 +9,7 @@ const MenuT = styled.div`
         background : #AF3D4E;
         grid-template-columns : 1fr;
         grid-template-rows : 1fr 1fr 1fr;
+        border : 1px solid black;
 
 `;
 
@@ -17,6 +18,7 @@ const StyledLink = styled(Link)`
         text-decoration: none;
         justify-self: center;
         align-self : center;
+        
 `;
 
 class Menu extends Component {

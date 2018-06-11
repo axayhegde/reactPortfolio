@@ -4,7 +4,7 @@ import Menu from './component/MenuComponent';
 import Footer from './component/FooterComponent';
 import WrapperComponent from './global/wrapperComponent';
 import Home from './component/HomeComponent';
-import About from './component/ContactMeComponent';
+import About from './component/AboutMe';
 import styled from "styled-components";
 import Portfolio from "./component/PortfolioComponent";
 import {BrowserRouter as Router, Route, Link} from "react-router-dom";
