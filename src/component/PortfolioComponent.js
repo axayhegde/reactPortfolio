@@ -30,9 +30,25 @@ const PortfolioT = styled.div`
         
 `;
 const StyledCard = styled.div`
-display: grid;
-        grid-template-columns : 1fr 1fr 1fr;
+        display: grid;
+        grid-template-columns : 1fr 1fr;
         background : white;
+        padding-left : 2em;
+        padding-top : 1em;
+        border-radius : 5px;
+        background : #994451;
+`;
+const RepoNameStyle = styled.div`
+        font-size : 1em;
+        color : white;
+`;
+const LearnMoreStyle = styled.div`
+        font-size : 1em;
+        text-align : center;
+        color : white;
+`;
+const aColor = styled.a`
+        color : white;
 `;
 
 
@@ -64,10 +80,13 @@ class Portfolio extends Component {
             <PortfolioT>
                 {this.state.data.map((repo) => {
                     return (
-
                         <StyledCard>
-                            {repo.name}
-                            Url : <a href={repo.html_url} size="small">Learn More</a>
+                            <RepoNameStyle>
+                                {repo.name}
+                            </RepoNameStyle>
+                            <LearnMoreStyle>
+                                <a href={repo.html_url} size="small">Learn More</a>
+                            </LearnMoreStyle>
                         </StyledCard>
                     )
                 })}

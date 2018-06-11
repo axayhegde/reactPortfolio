@@ -27,7 +27,7 @@ class Menu extends Component {
                 <MenuT>
                     <StyledLink to="/">Home</StyledLink>
                     <StyledLink to="/about">About Me</StyledLink>
-                    <StyledLink to="/portfolio">Portfolio</StyledLink>
+                    <StyledLink to="/portfolio">GitHub Projects</StyledLink>
                 </MenuT>
         );
     }
