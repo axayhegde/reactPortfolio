@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 
 const MenuT = styled.div`
         display : grid;
-        background : #AF3D4E;
+        background : white;
         grid-template-columns : 1fr;
         grid-template-rows : 1fr 1fr 1fr;
         border : 1px solid black;
@@ -13,7 +13,7 @@ const MenuT = styled.div`
 `;
 
 const StyledLink = styled(Link)`
-        color : white;
+        color : black;
         text-decoration: none;
         justify-self: center;
         align-self : center;
