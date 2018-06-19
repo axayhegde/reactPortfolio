@@ -1,11 +1,6 @@
 import React, {Component} from 'react';
 import styled from "styled-components";
 import {keyframes} from "styled-components";
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
-import CardActions from '@material-ui/core/CardActions';
-import {Link} from "react-router-dom";
 
 const rotate360 = keyframes`
   from {
@@ -45,9 +40,6 @@ const RepoNameStyle = styled.div`
 const LearnMoreStyle = styled.div`
         font-size : 1em;
         text-align : center;
-        color : white;
-`;
-const aColor = styled.a`
         color : white;
 `;
 

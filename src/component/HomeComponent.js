@@ -3,8 +3,6 @@ import styled from "styled-components";
 import {keyframes} from "styled-components";
 import * as firebase from 'firebase';
 import './HomeComponent.css';
-import Icon from '@material-ui/core/Icon';
-import * as FontAwesome from 'react-icons/lib/fa'
 
 const rotate360 = keyframes`
   from {
