@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3427f2af-051a-4138-8511-547670e5748e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/HomeComponent.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/HomeComponent.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/MenuComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/MenuComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/PortfolioComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/PortfolioComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -71,8 +68,8 @@
       <file leaf-file-name="MenuComponent.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/MenuComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="432">
+              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -102,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/src/component/PortfolioComponent.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+              <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -166,9 +163,9 @@
         <option value="$PROJECT_DIR$/src/component/HomeComponent.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/component/MenuComponent.js" />
         <option value="$PROJECT_DIR$/src/component/HomeComponent.css" />
         <option value="$PROJECT_DIR$/src/component/FooterComponent.js" />
+        <option value="$PROJECT_DIR$/src/component/MenuComponent.js" />
         <option value="$PROJECT_DIR$/src/component/PortfolioComponent.js" />
       </list>
     </option>
@@ -280,12 +277,12 @@
       <workItem from="1528700529184" duration="7968000" />
       <workItem from="1528956886177" duration="998000" />
       <workItem from="1529394315016" duration="2562000" />
-      <workItem from="1529424622892" duration="1108000" />
+      <workItem from="1529424622892" duration="2897000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43143000" />
+    <option name="totallyTimeSpent" value="44932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
@@ -300,7 +297,7 @@
       <window_info id="npm" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.33625412" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.22015335" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
@@ -663,16 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/MenuComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/HomeComponent.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -687,10 +674,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/MenuComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/PortfolioComponent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

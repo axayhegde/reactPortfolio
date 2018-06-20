@@ -55,7 +55,7 @@ class Portfolio extends Component {
 
     }
 
-    componentDidMount() {
+    componentWillMount() {
         fetch('https://api.github.com/users/axayhegde/repos')
             .then(response => response.json())
             .then(json => {
