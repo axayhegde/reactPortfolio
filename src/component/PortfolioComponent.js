@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import styled from "styled-components";
 import {keyframes} from "styled-components";
-
 const rotate360 = keyframes`
   from {
     -webkit-transform: scale(0.5);
@@ -56,7 +55,7 @@ class Portfolio extends Component {
     }
 
     componentWillMount() {
-        fetch('https://api.github.com/users/axayhegde/repos')
+        fetch('https://api.github.com/users/axayhegde/repos?per_page=all')
             .then(response => response.json())
             .then(json => {
                 console.log(json);

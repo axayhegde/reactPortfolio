@@ -45,9 +45,7 @@ class Home extends Component {
     render() {
         return (
             <HomeT>
-                {/*This is Home! {this.state.name}*/}
                 <main>
-
                     <div className="intro">Hello, I'm Akshay!</div>
                     <div className="tagline">Full Stack Developer | Photographer</div>
                     <div className="icons-social">
