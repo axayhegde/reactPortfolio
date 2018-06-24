@@ -15,7 +15,7 @@ const AboutMeT = styled.div`
     text-align: center;
     padding-top : 2em;
     animation: ${rotate360} 0.2s linear;
-    overflow-y : auto;
+    
 `;
 
 const ImageStyle = styled.img`
@@ -42,7 +42,7 @@ class AboutMe extends Component {
     render() {
         return (
             <AboutMeT>
-                <ImageStyle src={require('../assets/image.jpg')}/>
+               {/* <ImageStyle src={require('../assets/image.jpg')}/>*/}
                 <HeadingStyle>Akshay Hegde</HeadingStyle>
                 <p>Hi there! This website was developed using React 16.4.0. If you would like to contact me, you can
                     email me at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=akshayheg@gmail.com"

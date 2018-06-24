@@ -58,7 +58,7 @@ class Home extends Component {
                                 color: "#000000"
                             },
                             number: {
-                                    value: 100,
+                                    value: 100
                             },
                         }
                     }}
