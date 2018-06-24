@@ -3,6 +3,7 @@ import styled from "styled-components";
 import {keyframes} from "styled-components";
 import * as firebase from 'firebase';
 import './HomeComponent.css';
+import Particles from 'react-particles-js';
 
 const rotate360 = keyframes`
   from {
@@ -17,10 +18,10 @@ const rotate360 = keyframes`
 `;
 
 const HomeT = styled.div`
-        height:100%;
-        background : #FF8A65;
+        height:100vh;
         animation: ${rotate360} 0.5s linear;
 `;
+
 
 class Home extends Component {
 
@@ -45,15 +46,35 @@ class Home extends Component {
     render() {
         return (
             <HomeT>
-                <main>
-                    <div className="intro">Hello, I'm Akshay!</div>
-                    <div className="tagline">Full Stack Developer | Photographer</div>
-                    <div className="icons-social">
-                        <a target="www.github.com/axayhegde" href="https://github.com/axayhegde"><i className="fab fa-github"></i></a>
-                        <a target="https://www.linkedin.com/in/akshayheg/" href="https://www.linkedin.com/in/akshayheg/"><i className="fab fa-linkedin"></i></a>
-                    </div>
+                <Particles
+                    params={{
+                        particles: {
+                            line_linked: {
+                                shadow: {
+                                    enable: true,
+                                    color: "#FFFFF",
+                                    blur: 5
+                                },
+                                color: "#000000"
+                            },
+                            number: {
+                                    value: 100,
+                            },
+                        }
+                    }}
+                    height={ "100vh" }
 
-                </main>
+                ></Particles>
+                    <main>
+                        <div className="intro">Hello, I'm Akshay!</div>
+                        <div className="tagline">Full Stack Developer | Photographer</div>
+                        <div className="icons-social">
+                            <a target="www.github.com/axayhegde" href="https://github.com/axayhegde"><i
+                                className="fab fa-github"></i></a>
+                            <a target="https://www.linkedin.com/in/akshayheg/"
+                               href="https://www.linkedin.com/in/akshayheg/"><i className="fab fa-linkedin"></i></a>
+                        </div>
+                    </main>
             </HomeT>
         );
     }
